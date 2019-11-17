@@ -5,7 +5,7 @@ module.exports = {
       watch: false,
       env: {
         "PLUGDO_GLOBAL_ENV": "prod",
-        "PORT": 6263
+        "PORT": 3115
       }
     }]
   }
