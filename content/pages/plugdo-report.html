@@ -1,0 +1,25 @@
+<plugdo-report id="report-dominante">
+    <data>
+        {
+            "text": "Dominant",
+            "bg": "bg-danger",
+            "percentage": 90,
+            "maximum": 50,
+            "value": 48
+        }
+    </data>
+    <template>
+        <div class="row result-title-container">
+            <div class="col" style="padding-top: 10px;">
+                [json:text]
+            </div>
+        </div>
+        <div class="row result-title-container" style="padding-top: 10px; padding-bottom: 10px;">
+            <div class="col">
+                <div class="progress" >
+                    <div class="progress-bar [json:bg]" role="progressbar" style="width: [json:percentage]%" aria-valuenow="[json:value]" aria-valuemin="0" aria-valuemax="[json:maximum]">[json:percentage]%</div>
+                </div>
+            </div>
+        </div>
+    </template>
+</plugdo-report>
