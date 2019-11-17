@@ -169,6 +169,23 @@ $(document).ready(function () {
         view.setInitialData("plugdo-report", "influencer-result", data_influencer);
         view.setInitialData("plugdo-report", "serene-result", data_serene);
         view.setInitialData("plugdo-report", "conscious-result", data_conscious);
+
+        if(D > I && D > S && D > C) {
+            $(".personality-text").text("dominant");
+        }
+
+        if(I > D && I > S && I > C) {
+            $(".personality-text").text("influencer");
+        }
+
+        if(S > D && S > I && S > C) {
+            $(".personality-text").text("serene");
+        }
+
+        if(C > D && C > I && C > S) {
+            $(".personality-text").text("conscious");
+        }
+
         view.load();
     }});
 });
