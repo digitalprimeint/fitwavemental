@@ -10,6 +10,6 @@
   "license": "MIT",
   "dependencies": {
     "@dellasera/plugdo-mvc": "^1.0.21",
-    "lodash": ">=4.17.13"
+    "lodash": ">=4.17.21"
   }
 }
